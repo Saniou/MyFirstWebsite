@@ -1,0 +1,249 @@
+body {
+    
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   line-height: 1.6;
+   color: #333
+}
+   *,
+   *:before,
+   *:after{
+       box-sizing:border-box;
+   }
+   
+   h1, h2, h3, h4, h5, h6{
+       margin: 0;
+   }
+   
+   .container{
+       width: 100%;
+       max-width: 1200px;
+       margin: 0 auto;
+   }
+   
+   .intro{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
+       height: 100vh;
+       background: url(../Images/Intro.jpg) center, no-repeat;
+   }
+   
+   .intro__inner{
+       
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+   }
+   
+   .intro__title{
+       text-align: center;
+       font-size: 150px;
+       font-weight: 700;
+       color: #fff;
+       text-transform: uppercase;
+       line-height: 1;
+       
+   }
+   .intro__title:after{
+       content: "";
+       display: block;
+       width: 60px;
+       height: 3px;
+       background-color: #fff;
+       margin: 0 auto 0;
+       margin-top: 60px;
+       margin-bottom: 50px;
+   }
+   
+   .intro__suptitle{
+       margin-bottom: 20px;
+       font-size: 72px;
+       font-family: 'Kaushan Script', cursive;
+       color: #fff;
+       text-align: center;
+   }
+   
+  
+   
+   .header{
+       width: 100%;
+       position: absolute;
+       z-index: 1000;
+       right: 0;
+       left: 0;
+       top: 0;
+       padding-top: 30px
+   }
+   .header__inner{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        
+   }
+   
+   .header__logo{
+       font-weight: 700; 
+       font-size: 30px;
+       color:#ffff;
+   }
+   
+   .nav{
+       text-transform: uppercase;
+       font-size: 14px;
+       
+       
+   }
+   
+   .nav__link{
+       display: inline-block;
+       vertical-align: top;
+       margin: 0 10px;
+       text-decoration: none;
+       color: #ffff;    
+       
+       cursor: pointer;
+       
+       position: relative;   
+   }   
+   
+   .nav__link:after{
+    content: "";
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 3px;
+    background-color:#f7cb88;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+   }
+   
+   .nav__link:hover {
+     color:#f7cb88 ;
+     transition: 0.2s linear;
+     opacity: 0.75;
+   }
+   
+   
+   .nav__link:hover:after{
+       display: block;
+   }
+   
+   
+   
+   .button{
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    
+    transition: background 0.1s linear, color 0.1s linear;
+}
+
+.button:hover{
+    
+    background-color: #fff;
+    cursor: pointer;
+    color: #7f6946;
+}
+   
+
+.slider{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+
+.slider__item{
+    width: 22%;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-top: 3px solid #fff;
+    opacity: 0.7;
+    
+}
+   .slider__num{
+       font-size: 24px;
+       font-weight: 700;
+   }
+   
+   .section{
+    padding: 80px 0;
+    
+    
+   }
+   
+   .section__header{
+      margin-bottom: 40px; 
+      width: 100%;
+      max-width: 950px;
+      margin: 0 auto;
+      text-align: center;
+    
+   }
+   
+   .section__suptitle{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color: #000;
+    text-align: center;
+    
+   }
+   
+   .section__title{
+       font-size: 30px;
+       font-weight: bold;
+
+       
+       margin-bottom: 30px;
+       text-transform: uppercase;
+   }
+   
+   .section__title:after{
+       
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 30px auto ;
+    background-color:#f38181;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    
+   }
+      
+   .section__text{
+    color: #999999;
+    font-size: 15px;   
+    
+   }
+   
+.about{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+   
+   .about__item{
+    
+    
+   }
+   
+
+   
+   
